@@ -18,3 +18,9 @@ Preparing for Software Engineer interviews.
 
 ## Language
 Java
+
+## Leetcode-stats-card
+- LeetCode Stats
+- Solved Problems
+- Streak
+- Ranking
