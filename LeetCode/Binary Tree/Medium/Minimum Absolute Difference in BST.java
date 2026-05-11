@@ -1,5 +1,4 @@
 /*Key Insight
-
 👉 In a BST, an inorder traversal gives sorted order
 
 So:
