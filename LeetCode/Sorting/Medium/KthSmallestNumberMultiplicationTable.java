@@ -1,23 +1,16 @@
 /*
 Problem
-
 You have an m x n multiplication table:
-
 mat[i][j] = i * j   (1-based)
-
 Find the k-th smallest number.
-
 🔑 Key Idea — Binary Search on Answer
-
 Search in range:
 
 low = 1
 high = m * n
 
 For a number mid, count how many values ≤ mid.
-
 In each row:
-
 count += min(mid / i, n)
 */
 
