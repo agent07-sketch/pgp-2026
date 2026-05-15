@@ -1,17 +1,13 @@
 /*Problem
-
         For each element, count how many elements to its right are smaller.
 
         Example:
-
         Input:  [5,2,6,1]
         Output: [2,1,1,0]
         🔑 Optimal Approach — Merge Sort + Index Tracking
 
         While merging:
-
         If left[i] > right[j]
-
         Then all remaining elements in left are greater → count++
 */
 
