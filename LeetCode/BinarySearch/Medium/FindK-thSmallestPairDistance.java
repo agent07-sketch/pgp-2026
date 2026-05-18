@@ -1,52 +1,36 @@
 /*
 Problem
-
 Given an array nums, find the k-th smallest absolute difference between any pair.
-
 Example:
-
 nums = [1,3,1]
 k = 1
 
 Pairs:
-
 (1,1) → 0
 (1,3) → 2
 (1,3) → 2
 
 Sorted distances:
-
 0,2,2
 
 Answer:
-
 0
 Key Idea (Binary Search on Distance)
-
 Range of answer:
-
 low = 0
 high = max(nums) - min(nums)
 
 For each mid distance:
-
 Count how many pairs have distance ≤ mid.
-
 If:
-
 count >= k
-
 → answer is ≤ mid
 
 Otherwise:
-
 increase distance
 Efficient Pair Counting (Two Pointer)
-
 Because array is sorted.
-
 nums[j] - nums[i] <= mid
-
 Move j forward and count pairs.
  */
 
