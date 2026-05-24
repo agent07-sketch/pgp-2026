@@ -2,9 +2,7 @@
 
 Given an array → build BST
 Count how many reorderings give same BST
-
 🔑 Deep Insight
-
 👉 BST depends on insertion order
 👉 First element = root
 👉 Split into:
@@ -14,18 +12,15 @@ Right subtree → values > root
 ⚡ Core Formula
 
 If:
-
 Left size = L
 Right size = R
 
 Ways =
-
 C(L + R, L) * ways(left) * ways(right)
 
 👉 Why combination?
 
 Because:
-
 You can interleave left & right elements in many ways
 But relative order inside left/right must stay same
 🔥 Example
