@@ -4,7 +4,7 @@ Compute:
 
 x^n
 
-Efficiently.
+Efficiently. 
 
 🔑 Key Idea — Binary Exponentiation
 
